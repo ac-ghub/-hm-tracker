@@ -1,0 +1,58 @@
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --font-body: 'DM Sans', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+
+  --bg: #F7F5F0;
+  --surface: #FFFFFF;
+  --surface-2: #F0EDE6;
+  --border: rgba(0,0,0,0.08);
+  --border-strong: rgba(0,0,0,0.14);
+  --text-primary: #1A1814;
+  --text-secondary: #6B6760;
+  --text-tertiary: #A8A49E;
+  --accent: #1A1814;
+
+  --easy: #D4E8FF;
+  --easy-text: #1A4A80;
+  --easy-border: #A8CEEE;
+
+  --long: #D6F0DC;
+  --long-text: #1A5C2A;
+  --long-border: #A8D8B0;
+
+  --tempo: #FFF0CC;
+  --tempo-text: #7A5000;
+  --tempo-border: #F0D080;
+
+  --gym: #EDE8FF;
+  --gym-text: #3C2A9E;
+  --gym-border: #C8BCEE;
+
+  --recovery: #CCF5EB;
+  --recovery-text: #0A5040;
+  --recovery-border: #90DCC8;
+
+  --shakeout: #FFE0EE;
+  --shakeout-text: #8C1A48;
+  --shakeout-border: #F0A8C8;
+
+  --race: #FFD8CC;
+  --race-text: #7A2A10;
+  --race-border: #F0A890;
+
+  --rest: var(--surface-2);
+  --rest-text: var(--text-tertiary);
+  --rest-border: var(--border);
+}
+
+html { font-size: 16px; }
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text-primary);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
